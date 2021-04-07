@@ -9,14 +9,14 @@
     $('#preloader').fadeOut();
 
   // Sticky Nav
-  $('.scrolling-navbar').addClass('top-nav-collapse');
-    // $(window).on('scroll', function() {
-    //     if ($(window).scrollTop() >= 0) {
-    //         $('.scrolling-navbar').addClass('top-nav-collapse');
-    //     } else {
-    //         $('.scrolling-navbar').removeClass('top-nav-collapse');
-    //     }
-    // });
+  // $('.scrolling-navbar').addClass('top-nav-collapse');
+    $(window).on('scroll', function() {
+        if ($(window).scrollTop() >= 20) {
+            $('.scrolling-navbar').addClass('top-nav-collapse');
+        } else {
+            $('.scrolling-navbar').removeClass('top-nav-collapse');
+        }
+    });
 
     /* ==========================================================================
        countdown timer

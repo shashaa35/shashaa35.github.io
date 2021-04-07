@@ -3,6 +3,15 @@ html {
   overflow-x: hidden;
 }
 
+.jumbotron {
+  background: url("../img/slider/slide1.jpg") no-repeat center;
+  height: 500px;
+}
+.btn-primary {
+  background-color: #c60063;
+  border-color: #c60063;
+}
+
 body {
   background: #fff;
   font-size: 15px;
@@ -598,6 +607,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar-brand img {
+  max-width: 25vw;
   width: 75%;
 }
 
@@ -2174,7 +2184,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #main-slide .carousel-control {
-  top: 45%;
+  top: 50%;
 }
 
 #main-slide .carousel-control .lni-chevron-left,

@@ -84,7 +84,7 @@
     for (let i = 1; i <= NumOfEvents; i++) {
       $('#event-'+i+'-button').on('click', function(event) {
         $('#msg_subject').val('Interested in "'+$('#event-'+i+'-name').text()+'"');
-        $('#message').val('Hi ,\nI am interested in the workshop : '+$('#event-'+i+'-name').text()+'. Please contact me.');
+        $('#message').val('Hi ,\nI am interested into live workshop : '+$('#event-'+i+'-name').text()+'.');
       });
     }
 

@@ -48,10 +48,10 @@
 
     /* Nivo Lightbox 
     ========================================================*/
-    $('.lightbox').nivoLightbox({
-        effect: 'fadeScale',
-        keyboardNav: true,
-      });
+    // $('.lightbox').nivoLightbox({
+    //     effect: 'fadeScale',
+    //     keyboardNav: true,
+    //   });
 
     // one page navigation 
     $('.navbar-nav').onePageNav({

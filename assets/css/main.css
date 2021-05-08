@@ -1795,6 +1795,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #0073b1;
 }
 
+.footer-area .footer-social li .instagram:hover {
+  background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+}
+
 .footer-area .footer-social li .foursqare:hover {
   background: #25a0ca;
 }

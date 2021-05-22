@@ -500,6 +500,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   padding: 30px 0;
 }
 
+.section-padding-policy {
+  padding: 80px 0;
+}
+
 .no-padding {
   padding: 0 !important;
 }

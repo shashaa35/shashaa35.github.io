@@ -10,13 +10,15 @@
 
   // Sticky Nav
   // $('.scrolling-navbar').addClass('top-nav-collapse');
-    $(window).on('scroll', function() {
-        if ($(window).scrollTop() >= 20) {
-            $('.scrolling-navbar').addClass('top-nav-collapse');
-        } else {
-            $('.scrolling-navbar').removeClass('top-nav-collapse');
-        }
-    });
+      if (window.location.href.indexOf("policy") === -1) {
+          $(window).on('scroll', function() {
+              if ($(window).scrollTop() >= 20) {
+                  $('.scrolling-navbar').addClass('top-nav-collapse');
+              } else {
+                  $('.scrolling-navbar').removeClass('top-nav-collapse');
+              }
+          });
+      }
 
     /* ==========================================================================
        countdown timer
